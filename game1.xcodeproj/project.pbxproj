@@ -17,6 +17,16 @@
 		43FE8C25235692EF00575F86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43FE8C23235692EF00575F86 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		43FE8C542356958000575F86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43FE8C502356957F00575F86 /* nv2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 43FE8C352356957F00575F86;
+			remoteInfo = nv2;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		43FE8C11235692EF00575F86 /* game1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = game1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43FE8C14235692EF00575F86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +38,7 @@
 		43FE8C21235692EF00575F86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43FE8C24235692EF00575F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43FE8C26235692EF00575F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43FE8C502356957F00575F86 /* nv2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = nv2.xcodeproj; path = nv2/nv2.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +71,7 @@
 		43FE8C13235692EF00575F86 /* game1 */ = {
 			isa = PBXGroup;
 			children = (
+				43FE8C502356957F00575F86 /* nv2.xcodeproj */,
 				43FE8C14235692EF00575F86 /* AppDelegate.swift */,
 				43FE8C16235692EF00575F86 /* GameScene.sks */,
 				43FE8C18235692EF00575F86 /* Actions.sks */,
@@ -71,6 +83,14 @@
 				43FE8C26235692EF00575F86 /* Info.plist */,
 			);
 			path = game1;
+			sourceTree = "<group>";
+		};
+		43FE8C512356957F00575F86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43FE8C552356958000575F86 /* nv2.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,12 +140,28 @@
 			mainGroup = 43FE8C08235692EF00575F86;
 			productRefGroup = 43FE8C12235692EF00575F86 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 43FE8C512356957F00575F86 /* Products */;
+					ProjectRef = 43FE8C502356957F00575F86 /* nv2.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				43FE8C10235692EF00575F86 /* game1 */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		43FE8C552356958000575F86 /* nv2.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = nv2.app;
+			remoteRef = 43FE8C542356958000575F86 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		43FE8C0F235692EF00575F86 /* Resources */ = {
